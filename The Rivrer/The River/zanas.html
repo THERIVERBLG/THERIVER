@@ -1,0 +1,539 @@
+<html>
+    <head>
+        
+        
+        
+        
+        <title>ЗА НАС - THE RIVER</title></head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+            -webkit-box-sizing: border-box; 
+            -moz-box-sizing: border-box;  
+        }
+
+        .nav-empty {
+
+padding-top: 1.042vw;
+height: 150;
+
+}
+
+
+
+        body {
+
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+background-image:url(homebg.jpg);
+background-position-y: 0;   
+background-size:135.417vw;    }
+
+
+/* Style the anchor tag within the div */
+.about a {
+text-decoration: none; /* Remove underline */
+color: rgb(255, 255, 255); /* Change text color */
+
+}
+
+/* Style the anchor tag when hovered */
+.about a:hover {
+color: rgb(255, 255, 255); /* Change text color on hover */
+background-color:rgb(57, 67, 112) ;
+}
+
+        .navbar-flex{
+            Overflow:hidden;
+            background-color: rgba(255, 240, 249, 0.603);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 3.125vw;
+            width: 30%;
+            margin-left: 35%;
+            border-radius:1.563vw;
+            -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+            padding-left: 0.26vw;
+            padding-right: 0.26vw;
+    
+            box-shadow: 0 0.417vw 0.833vw 0 rgba(0, 0, 0, 0.2), 0 0.313vw 1.042vw 0 rgba(0, 0, 0, 0.19);
+
+        }
+        .navbar-flex >.logo{
+            position: absolute;
+            z-index: 2;
+            left: 0; Overflow:hidden;
+        }
+        .navbar{
+          
+            display: flex;
+            width: 100%;
+            gap: 1.5em;
+            height: 100%;
+            justify-content: center;
+            padding-bottom: 0.781vw;
+            padding-top: 0.781vw;
+            align-items: center; Overflow:hidden;
+            
+            
+        }
+        .navbar >div{
+            border-radius:1.563vw;
+            display: flex;
+         background-color: rgba(255, 255, 255, 0.856);
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0.417vw 0.833vw 0 rgba(0, 0, 0, 0.2), 0 0.313vw  1.042vw 0 rgba(0, 0, 0, 0.19);
+            width: 5.208vw;
+           transition: 0.5s ease-in-out; Overflow:hidden;
+           font-size: 0.8vw;
+           
+           
+          
+
+                }
+        .navbar >div:hover{
+            background-color: rgb(29, 29, 29);
+            color: rgb(255, 255, 255);
+            cursor: pointer; Overflow:hidden;
+            
+           
+        }
+
+        a {
+  text-decoration: none; Overflow:hidden;
+}
+
+a:link {color: black;}      /* unvisited link */
+       a:visited {color: black;}   /* visited link */
+       a:hover {color: rgb(255, 255, 255);}     /* mouse over link */
+       a:active {color: black;}    /* selected link */
+
+
+/* You can style your div here if needed */
+
+
+
+        
+        .empty-flex{
+            visibility:hidden; Overflow:hidden;
+        }
+        .footer {
+    background-color: rgb(57, 67, 112);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.brand h2 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: white;
+}
+
+.quote h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: white;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info p:first-child {
+    margin-top: 20px;
+}
+
+.social-links img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+
+
+
+        .teacher-picture{
+            display: flex;
+            width: 100vw;
+            height: 7.813vw;
+            justify-content: center;
+            align-items: center;
+            margin-top: 3rem; Overflow:hidden;
+            
+        }
+        .picture{
+            width: 15.625vw;
+            height: 15.625vw; Overflow:hidden;
+         
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden; Overflow:hidden;
+            background-color: rgba(234, 245, 255, 0);
+ 
+            
+        }
+        .picture > img{
+            width: 13.021vw;
+            height: 13.021vw;
+            border-radius: 100% 100%;
+          filter:hue-rotate(-5deg);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; Overflow:hidden;
+
+        }
+        .picture > h1{
+            font-size: 1rem;
+            color: rgb(57, 67, 112); Overflow:hidden;
+        }
+        .first-row, .second-row, .third-row{
+            margin-top: 8rem;
+            display: flex;
+            width: 100vw;
+            height: 15.625vw;
+            justify-content: space-around;
+            align-items: center; Overflow:hidden;
+            
+            
+            
+        }
+        .form-flex{
+            margin-top: 3rem;
+            width: 100vw;
+            height: 35vw;
+            background-image:url(background.jpg);
+            display: flex;
+            justify-content: center;
+            align-items: center; Overflow:hidden;
+        }
+        .contact-form{
+            
+            width: 80vw;
+            background-color: rgb(57, 67, 112);
+            height: 29vw;
+            border-radius: 1.563vw;
+margin-bottom: 1.563vw; Overflow:hidden;
+margin-top: 1.563vw;
+
+
+            display: flex;
+            flex-direction: row; Overflow:hidden;
+        }
+        .first-column{
+            display: flex; Overflow:hidden;
+            width: 60%;
+            height: 100%;
+            background-color: rgb(57, 67, 112);
+            flex-direction: column;
+            justify-content: center;
+            border-radius: 1.563vw;
+            align-items: center;
+            color: white; Overflow:hidden;
+        }
+        .second-column{
+            width: 40%; Overflow:hidden;
+            height: 52.083vw;
+            background-color: white;
+            padding: 2em;
+        }
+        .second-column > h1{
+            font-size: 15rem; Overflow:hidden;
+            margin-bottom: 2rem;
+        }
+        .second-column > p{
+            font-size: 1.5rem; Overflow:hidden;
+        }
+        .name-surname, .email-phone{
+            display: flex; Overflow:hidden;
+            gap: 3rem;
+        }
+        span{
+            font-weight: 700;
+            margin-right: 1rem; Overflow:hidden;
+        }
+        input{
+            margin-bottom: 1rem;
+            margin-top: 0.5rem;
+            width: 18vw;
+            height: 1.563vw;
+            transition: 0.2s ease-in-out; Overflow:hidden;
+         
+            border-radius: 1.563vw;
+
+            border: 0.156vw solid lightgray; Overflow:hidden;
+        }
+        label{
+            font-size:1.5rem; Overflow:hidden;
+        
+        }
+        textarea{
+            width: calc(36vw + 3rem);
+            resize: none;
+            transition: 0.2s ease-in-out;
+            border: 0.156vw solid lightgray;
+            margin-top: 0.5rem;
+            border-radius: 1.563vw; Overflow:hidden;
+
+            
+        }
+        button{
+            margin-top: 1rem;
+            width: 4.688vw;
+            height: 2.083vw;
+            background-color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: 0.5s ease-in-out;
+            border-radius: 1.563vw; Overflow:hidden;
+        }
+        button:hover{
+            background-color: black;
+            border: 0.156vw solid white;
+            color: white; Overflow:hidden;
+        }
+        input:focus{
+            outline: none;
+            border: 0.156vw solid rgb(93, 147, 255); Overflow:hidden;
+        }
+        textarea:focus{
+            outline: none;
+            border: 0.156vw solid rgb(93, 147, 255);
+            box-sizing: border-box; Overflow:hidden;
+        }
+        form > h1{
+            margin-bottom: 0.4rem; Overflow:hidden;
+        }
+        .information-text-flex{
+            display: flex;
+            width: 100%;
+            height: 20vw;
+            background-color: rgb(93, 147, 255);
+            flex-direction: row; Overflow:hidden;
+        }
+        .col1{
+            background-color: rgb(255, 255, 255);
+            width: auto;
+            height: 100%;
+            font-size: 1.5rem;
+            font-weight: 700; Overflow:hidden;
+        }
+        .col1 > p{
+            margin-top: 0.6rem;
+            padding-right: 0.5rem; Overflow:hidden;
+        }
+        .col2{
+            background-color: rgb(255, 255, 255);
+            width: 50%;
+            height: 100%;
+            padding-left: 3vw;
+            flex-grow: 1;
+            font-size: 1.5rem; Overflow:hidden;
+        }
+        .col2 > p{
+            margin-top: 0.6rem; Overflow:hidden;
+            
+        }
+        .about {
+background-color:rgb(57, 67, 112);
+cursor: pointer; /* Change cursor to pointer to indicate it's clickable */ Overflow:hidden;
+}
+
+.white-cover {
+
+    background-color: rgb(237, 250, 255);
+    background-size: 520.833vw; Overflow:hidden;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .picture > h1 {
+        font-size: 0.8rem;
+    }
+
+.picture{
+    height:;
+}
+
+
+    h1 {
+
+        font-size: 0.5rem;
+    }
+
+.contact-form {
+
+
+    height: 30rem;
+
+}
+.col1  {
+
+    width: 40%;
+
+}
+
+.col2 {
+
+width: 60%;
+
+}
+
+
+.second-column{
+
+
+    width: 50%;
+}
+    .first-column {
+        padding: 1rem; /* Примерно разстояние */
+        height: 30rem;
+    }
+
+
+    .first-column h1 {
+        font-size: 1rem; /* Примерен размер на шрифта */
+    }
+    .second-column {
+       
+        padding: 1rem; /* Примерно разстояние */
+        height: 30rem;
+
+    }
+    }
+    input, textarea {
+        width: 80%;
+    }
+    button {
+        width: 30%;
+    }
+    .form-flex {
+        margin-bottom: 2rem;
+        height: 30rem;
+
+    }
+
+.footer {
+    margin-top: 2rem;
+}
+
+.second-column h1 {
+        font-size: 2rem; /* Примерен размер на шрифта */
+    }
+    .second-column p {
+        font-size: 1.2rem; /* Примерен размер на шрифта */
+        
+    } 
+    
+    
+    .picture > img {
+        width: 80%; /* Примерен размер на изображението */
+        height: auto; /* Поддържа съотношението на страните */
+    }
+
+    
+    </style>
+    <body>
+        <div class="main">
+            <div class="home-main">
+                <div class="nav-empty">
+
+                    <div class="navbar-flex">
+                        <div class="logo"></div>
+                        <div class="navbar">
+                            <div class="home" ><a href="index.html">Начало</a></div>
+                            
+                            <div class="about" style="background-color:rgb(57, 67, 112);"><a href="zanas.html" style="color: rgb(255, 255, 255); ">За нас</a></div>
+                            <div class="gallery"><a href="gallery.html">Галерия</a></div>
+                            <div class="reservations"><a href="reserv.html">Резервация</a></div>
+                
+                        </div>
+                    </div>
+                    
+                </div>
+           
+
+
+
+                
+           <div class="students-pictures">
+            <div class="first-row"> 
+
+                
+                
+                <div class="picture"><img src="ръководител.png" alt="">
+                    <h1 style="color: white;">Ръководител</h1></div>
+                    
+            </div>
+            <div class="white-cover">
+            <div class="second-row">
+                <div class="picture"><img src="управител.png" alt="">
+                    <h1>Управител</h1></div>
+                <div class="picture"><img src="главен счетоводител.png" alt="">
+                    <h1>Глваен счетоводител</h1></div>
+                <div class="picture"><img src="счетоводител .png" alt="">
+                    <h1>Счетоводител</h1></div>
+                <div class="picture"><img src="счетоводител 2.png" alt="">
+                    <h1>Счетоводител</h1></div>
+            </div>
+            <div class="third-row">
+                <div class="picture"><img src="инструктор.png" alt="">
+                    <h1>Инструктор</h1></div>
+                <div class="picture"><img src="инструктор 2.png" alt="">
+                    <h1>Инструктор</h1></div>
+                <div class="picture"><img src="касиер-домакин.png" alt="">
+                    <h1>Касиер-домакин</h1></div>
+                <div class="picture"><img src="технически сътрудник.png" alt="">
+                    <h1>Технически сътрудник</h1></div>
+            </div>
+
+            <div class="third-row">
+                <div class="picture"><img src="мениджър реклама .png" alt="">
+                    <h1>Мениджър реклама</h1></div>
+                <div class="picture"><img src="фотограф.png" alt="">
+                    <h1>Фотограф</h1></div>
+                <div class="picture"><img src="организатор маркетинг .png" alt="">
+                    <h1>Организатор маркетинг</h1></div>
+                    <div class="picture"><img src="ръководител, отдел-отдих.png" alt="">
+                        <h1>Ръководител-отдих</h1></div>
+            </div>
+        </div>
+            
+       
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="brand">
+                    <h2>T H E  &nbsp&nbsp&nbsp     R I V E R</h2>
+                </div>
+                <div class="quote">
+                    <h1>"OPEN YOUR EYES, FEEL THE MAGIC!"</h1>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://www.facebook.com/people/The-River/61555088834884/" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/the.river.rafting/" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </footer>
+        
+      
+    </body>
+</html>
